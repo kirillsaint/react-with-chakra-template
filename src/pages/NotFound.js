@@ -11,7 +11,7 @@ import {
 
 export default function NotFound() {
     return (
-        <Container color='white'>
+        <Container>
             <Stack
                 as={Box}
                 alignItems='center'
@@ -19,8 +19,8 @@ export default function NotFound() {
                 spacing={{ base: 8 }}
                 py={{ base: 20, md: 36 }}
             >
-                <Heading size='2xl'>Page not found</Heading>
-                <Button w='100%' colorScheme='blue' variant='solid' as={Link} to='/'>To home</Button>
+                <Heading size='2xl'>404</Heading>
+                <Button colorScheme='teal' variant='solid' as={Link} to='/'>На главную</Button>
             </Stack>
         </Container>
     )
